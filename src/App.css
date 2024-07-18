@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+    
+  /* background-color: #3b0646  !important;  */
+  background-color: #b5bfa1  !important; 
+  /* background-color: #4A249D !important; 
+  background: #EBCCF1  !important; */
+  opacity: 1;
+  /* background-image: url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D'); */
+  /* background-image: radial-gradient(#ffffff 0.65px, #262626 0.65px); */
+  background-size: 20px 20px;
+  
+}
+
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  /* padding: 20px; */
+  align-content: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+
+  overflow-x: hidden;
+}
+
+.App-header {
+  width: 100%;
+  text-align: left;
+}
+
+.App-aside {
+  width: 20vw;
+  background: #e6ece1;
+  color: #000000;
+  font-weight: 400;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  /* position: fixed;
+  right: 0;
+  top: 0; */
+  height: 100vh;
+  overflow-y: auto;
+  transition: 0.5s linear;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.email-item {
+  color: #f6f6f6;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #FEE6E2;
+}
+
+
+/* Form Styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  position: relative;
+  width: 60% !important;
+  /* background: #EBCCF1  ;
+  background: white  ; */
+  background: #e6ece1;
+  padding: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.modal-dialog{
+  width:70vw !important;
+  max-width: 55vw !important;
+}
+
+.container header {
+  font-size: 1.2rem;
+  color: #262626;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .form {
+  margin-top: 15px;
+  width: 100%;
+  padding: 15px;
+}
+
+.form .input-box {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-box input {
+  width: 100% !important;
+  outline: none;
+  font-size: 1rem;
+  color: #262626;
+  border: 1px solid #b5bfa1;
+  border-radius: 6px;
+  padding: 0 15px;
+  background: #ffffff;
+}
+
+.input-box label {
+  color: #000;
+}
+
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 35px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #f6f6f6;
+  margin-top: 5px;
+  border: 1px solid #EE4E34;
+  border-radius: 6px;
+  padding: 0 15px;
+  background: #FCEDDA;
+}
+
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+
+.form .gender-box {
+  margin-top: 10px;
+}
+
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .gender {
+  column-gap: 5px;
+}
+
+.gender input {
+  accent-color: #2c7d8e;
+}
+
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+
+.gender label {
+  color: #000;
+}
+
+.address :where(input, .select-box) {
+  margin-top: 10px;
+}
+
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #f6f6f6;
+  font-size: 1rem;
+  background: #FCEDDA;
+}
+
+.form button {
+  height: 40px;
+  width: 100%;
+  color: #f6f6f6;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #2a4f18;
+}
+
+.form button:hover {
+  background: #5d5d5d;
+}
+
+
+/* CheckBox Styling */
+
+/* Hide the default checkbox */
+.CheckBoxContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.CheckBoxContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background: #606062;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.30), 0px 1px 1px rgba(0, 5);
+  margin-right: 5px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.CheckBoxContainer input:checked~.checkmark {
+  background-image: linear-gradient(#b9e9b3, #a8e4a0)
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.CheckBoxContainer input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.CheckBoxContainer .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+
+.emptyMailbox {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhRkQziwUzsF2nn4Shr6jQPq1bv0iDmQMqbA&s');
+  mix-blend-mode: color-dodge;
+  filter: invert(1);
+}
+
+
+
+
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.buttons div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 40px;
+  /* background-color: #f47a7a; */
+}
+
+.remove-button{
+  border: 1px solid #f47a7a;;
+  /* background-color: #f47a7a; */
+  border-bottom-left-radius: 5px ;
+}
+
+.update-button{
+  border-bottom-right-radius: 2px;
+  /* background-color: #ffec6e; */
+  border: 1px solid #ffec6e;
+
+}
+
+.remove-button:hover{
+  background-color: #f56464;
+}
+
+.update-button:hover{
+  background-color: #f2dc4e;
+
+}
+
+
+
+.delete-button {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cc0000;
+  background-color: #e50000;
+  overflow: hidden;
+  border-radius: 0px 0px 0px 5px;
+}
+
+
+.delete-update-button {
+
+  border: 1px solid #a78104;
+  background-color: #ffd40d;
+  border-radius: 0px 0px 5px 0px;
+
+}
+
+.delete-button, .button__icon, .button__text {
+  transition: all 0.5s;
+}
+
+.delete-button .button__text {
+  transform: translateX(35px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.delete-button .button__icon {
+  position: absolute;
+  transform: translateX(300%);
+  height: 100%;
+  width: 25%;
+  background-color: #cc0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-update-button .button__icon {
+  position: absolute;
+  transform: translateX(300%);
+  height: 100%;
+  width: 39px;
+  background-color: #be940b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-button .svg {
+  width: 20px;
+}
+
+.delete-button:hover {
+  background: #cc0000;
+}
+
+.delete-update-button:hover {
+  background: #be940b;
+}
+
+.delete-button:hover .button__text {
+  color: transparent;
+}
+
+.delete-button:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.delete-button:active .button__icon {
+  background-color: #b20000;
+}
+
+.delete-button:active {
+  border: 1px solid #b20000;
+}

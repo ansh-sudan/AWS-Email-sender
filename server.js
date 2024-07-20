@@ -36,14 +36,14 @@ const emailContents = {
     format1: (companyName, companyPost, companyPostURL) => ({
         text: '',
         html: `Respected Hiring Manager,<br/><br/>
-    My name is Ansh Sudan, and I am currently in my final year pursuing a Bachelor of Computer Applications with a minor specialization in Data Science and Analytics from GGSIPU. I am actively seeking job opportunities.<br/><br/>
+    My name is Ansh Sudan, and I recently graduated pursuing a Bachelor of Computer Applications with a minor specialization in Data Science and Analytics from GGSIPU. I am actively seeking job opportunities. I recently interned at Jio Platforms as a Data Science Intern, working on predictive analytics and time series data. <br/><br/>
     I am very interested in Data Analytics and have upskilled myself in technologies such as Python, SQL, Alteryx, and Power BI.<br/><br/>
     I assure you of full diligence in my work and therefore I am also attaching my work sample in this email which shows my logical skills and way of solving a problem effectively and efficiently. Therefore, I've applied for an entry-level opening at ${companyName} for the position of <a href="${companyPostURL}">${companyPost}</a>, and would appreciate it if you could kindly view it once.<br/><br/>
     These are some of my work samples for your reference:<br/>
-    <a href="https://www.github.com/anshsudan">Ansh's Github</a><br/>
-    <a href="https://example.com/project1">Project 1</a><br/>
-    <a href="https://example.com/project2">Project 2</a><br/>
-    <a href="https://example.com/project3">Project 3</a><br/><br/>
+    <a href="https://github.com/ansh-sudan">Github</a><br/>
+    <a href="https://www.linkedin.com/in/ansh-sudan-7aa596229/">LinkedIn</a><br/>
+    <a href="https://github.com/ansh-sudan/EDA-on-Zomato-Dataset-">EDA on Zomato Dataset</a><br/>
+    <a href="https://github.com/ansh-sudan/Power-BI-Dashhboard-on-Modi-Store">Dashboard using Power BI</a><br/><br/>
     PFA<br/>
     1) Cover Letter<br/>
     2) CV<br/><br/>
@@ -51,19 +51,19 @@ const emailContents = {
     --<br/>
     Regards,<br/>
     Ansh Sudan<br/>
-    971733`
+    9717338382`
     }),
     format2: {
         text: '',
         html: `Respected Hiring Manager,<br/><br/>
-    My name is Ansh Sudan, and I am currently in my final year pursuing a Bachelor of Computer Applications with a minor specialization in Data Science and Analytics from GGSIPU. I am actively seeking job opportunities.<br/><br/>
+    My name is Ansh Sudan, and I recently graduated pursuing a Bachelor of Computer Applications with a minor specialization in Data Science and Analytics from GGSIPU. I am actively seeking job opportunities. I recently interned at Jio Platforms as a Data Science Intern, working on predictive analytics and time series data.<br/><br/>
     I am very interested in Data Analytics and have upskilled myself in technologies such as Python, SQL, Alteryx, and Power BI.<br/><br/>
     I assure you that I will be very diligent in my work and I am also attaching my work sample in this email which shows my logical skills and way of solving a problem effectively and efficiently. I wanted to apply for any vacant position in this particular field at your company.<br/><br/>
     These are some of my work samples for your reference:<br/>
-    <a href="https://www.github.com/anshsudan">Ansh's Github</a><br/>
-    <a href="https://example.com/project1">Project 1</a><br/>
-    <a href="https://example.com/project2">Project 2</a><br/>
-    <a href="https://example.com/project3">Project 3</a><br/><br/>
+    <a href="https://github.com/ansh-sudan">Github</a><br/>
+    <a href="https://www.linkedin.com/in/ansh-sudan-7aa596229/">LinkedIn</a><br/>
+    <a href="https://github.com/ansh-sudan/EDA-on-Zomato-Dataset-">EDA on Zomato Dataset</a><br/>
+    <a href="https://github.com/ansh-sudan/Power-BI-Dashhboard-on-Modi-Store">Dashboard using Power BI</a><br/><br/>
     PFA<br/>
     1) CV<br/>
     2) Cover Letter<br/><br/>
@@ -71,19 +71,19 @@ const emailContents = {
     --<br/>
     Regards,<br/>
     Ansh Sudan<br/>
-    9354832511`
+    9717338382`
     },
     format3: (companyName, companyPost, companyPostURL) => ({
         text: '',
         html: `Respected Hiring Manager,<br/><br/>
-    My name is Ansh Sudan, and I am currently in my final year pursuing a Bachelor of Computer Applications with a minor specialization in Data Science and Analytics from GGSIPU. I am actively seeking job opportunities.<br/><br/>
+    My name is Ansh Sudan, and I I recently graduated pursuing a Bachelor of Computer Applications with a minor specialization in Data Science and Analytics from GGSIPU. I am actively seeking job opportunities. I recently interned at Jio Platforms as a Data Science Intern, working on predictive analytics and time series data. <br/><br/>
     I am very interested in Data Analytics and have upskilled myself in technologies such as Python, SQL, Alteryx, and Power BI.<br/><br/>
     I assure you that I will be very diligent in my work and I am also attaching my work sample in this email which shows my logical skills and way of solving a problem effectively and efficiently. I wanted to apply for any vacant position in this particular field at your company.<br/><br/>
     These are some of my work samples for your reference:<br/>
-    <a href="https://www.github.com/anshsudan">Ansh's Github</a><br/>
-    <a href="https://example.com/project1">Project 1</a><br/>
-    <a href="https://example.com/project2">Project 2</a><br/>
-    <a href="https://example.com/project3">Project 3</a><br/><br/>
+    <a href="https://github.com/ansh-sudan">Github</a><br/>
+    <a href="https://www.linkedin.com/in/ansh-sudan-7aa596229/">LinkedIn</a><br/>
+    <a href="https://github.com/ansh-sudan/EDA-on-Zomato-Dataset-">EDA on Zomato Dataset</a><br/>
+    <a href="https://github.com/ansh-sudan/Power-BI-Dashhboard-on-Modi-Store">Dashboard using Power BI</a><br/><br/>
     PFA<br/>
     1) CV<br/>
     2) Cover Letter<br/><br/>

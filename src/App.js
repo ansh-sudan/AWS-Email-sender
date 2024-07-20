@@ -36,7 +36,7 @@ function App() {
   const [emails, setEmails] = useState("");
   const [format, setFormat] = useState("format1");
   const [subject, setSubject] = useState(
-    "Application for Developer position at"
+    "Application for Data Analyst position at"
   );
   const [companyName, setCompanyName] = useState("");
   const [companyPost, setCompanyPost] = useState("");
